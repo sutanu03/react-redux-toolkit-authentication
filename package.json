@@ -1,0 +1,52 @@
+{
+  "name": "redux-toolkit-auth",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.6",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.1",
+    "@testing-library/user-event": "^14.1.1",
+    "axios": "0.27.2",
+    "bootstrap": "4.6.2",
+    "formik": "^2.2.9",
+    "http-proxy-middleware": "^2.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "- JWT Authentication & Authorization Flow for User Login, Register, Logout\r - Project Structure for React Redux JWT Authentication, Router, Axios\r - Working with Redux Actions, Reducers, Store using redux-toolkit\r - Storing JWT in HttpOnly Cookies\r - Creating React Function Components with Hooks & Form Validation\r - React Function Components for accessing protected Resources (Authorization)\r - Dynamic Navigation Bar in React App",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
